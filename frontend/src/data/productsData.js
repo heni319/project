@@ -1,11 +1,10 @@
-// src/data/productsData.js
-
 const productsData = [
   {
     id: 1,
     name: "Blue T-Shirt",
     price: 25.99,
     description: "Comfortable cotton t-shirt, perfect for casual wear.",
+    category: "Men",
     image: "/images/blue-tshirt.jpg",
   },
   {
@@ -13,6 +12,7 @@ const productsData = [
     name: "Running Shoes",
     price: 89.99,
     description: "Lightweight running shoes for everyday training.",
+    category: "Men",
     image: "/images/running-shoes.jpg",
   },
   {
@@ -20,6 +20,7 @@ const productsData = [
     name: "Leather Jacket",
     price: 199.99,
     description: "Stylish leather jacket for a cool look.",
+    category: "Men",
     image: "/images/leather-jacket.jpg",
   },
   {
@@ -27,6 +28,7 @@ const productsData = [
     name: "Red Hoodie",
     price: 49.99,
     description: "Warm and cozy hoodie, great for winter.",
+    category: "Women",
     image: "/images/red-hoodie.jpg",
   },
   {
@@ -34,6 +36,7 @@ const productsData = [
     name: "Sneakers",
     price: 79.99,
     description: "Casual sneakers for everyday wear.",
+    category: "Women",
     image: "/images/sneakers.jpg",
   },
   {
@@ -41,6 +44,7 @@ const productsData = [
     name: "Jeans",
     price: 59.99,
     description: "Slim-fit denim jeans with comfortable stretch.",
+    category: "Men",
     image: "/images/jeans.jpg",
   },
 ];
